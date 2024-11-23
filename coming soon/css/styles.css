@@ -10947,7 +10947,7 @@ video.bg-video {
   position: relative;
   z-index: 2;
 }
-.social-icons .btn {
+.social-icons .btn, .social-icons .btn:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10955,6 +10955,11 @@ video.bg-video {
   height: 4rem;
   width: 4rem;
   border-radius: 100rem;
+}
+
+.social-icons .btn:hover {
+  opacity: 0.85;
+  scale:1.05;
 }
 
 @media (min-width: 992px) {
