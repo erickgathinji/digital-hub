@@ -10943,6 +10943,12 @@ video.bg-video {
     width: 65vw;
   }
 }
+.masthead .btn-home {
+  background: #d6ba1c;
+  color: black;
+  border-radius: 5px;
+}
+
 .social-icons {
   position: relative;
   z-index: 2;
